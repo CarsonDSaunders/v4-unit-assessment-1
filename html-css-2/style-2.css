@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 10px 20px;
+    background-color: #89FCD6;
+    width: 100vw;
+}
+
+main {
+    padding: 15px;
+}
+
+h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.rectanglesbox {
+    padding: 20px;
+    border: dashed 1px gray;
+    box-sizing: border-box;
+}
+
+.circlesbox {
+    padding: 10px;
+    border: dashed 1px gray;
+    box-sizing: border-box;
+}
+
+.everythingbox {
+    padding: 10px;
+    border: dashed 1px gray;
+    box-sizing: border-box;
+}
+
+#purplerect {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: #FA221C solid 3px;
+    background-color: #48187F;
+}
+
+#bluesquare {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #0035F8;
+    border: solid black 1px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.912);
+    margin: 0 20px;
+}
+
+#pinksquare {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background-color: #D77493;
+    border: solid black 1px;
+}
+
+#snowmanhead {
+    border:black 1px solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    clear: both;
+    padding: 20px 0px 0px 15px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+#faceimg {
+    display: inline;
+}
+
+#snowmanbody {
+    border:black 1px solid;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    clear: both;
+    padding: 20px 0px 0px 40px;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+
+#bodyimg {
+    display: inline-block;
+}
+
+#snowmanlegs {
+    border:black 1px solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    clear: both;
+    padding: 20px 0px 0px 15px;
+    box-sizing: border-box;
+}
+
+#yellowsquare {
+    height: 250px;
+    width: 250px;
+    background-color: #F5F4DE;
+    border: black solid 1px;
+    box-sizing: border-box;
+}
+
+#greencircle {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: black solid 1px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 35px 35px;
+}
+
+#brownsquare {
+    height: 125px;
+    width: 125px;
+    background-color: #A22F2E;
+    box-sizing: border-box;
+}
+
+#fishtank {
+    font-size: small;
+    font-weight:lighter;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#bluecircle {
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    border: black solid 1px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+#fish {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
