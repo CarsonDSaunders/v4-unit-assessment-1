@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 70px 20px 30px;
+    background-color: #EC8382;
+    width: 100vw;
+    border-bottom: black 1px solid;
+}
+
+h1 {
+    display: inline;
+}
+
+#navitems {
+    font-weight: 500;
+    display: inline;
+    margin-left: 50px;
+}
+
+
+nav {
+    display: inline;
+}
+
+#abouthtml {
+    font-weight: 900;
+}
+
+div {
+    border: black dotted 5px;
+    padding: 35px 20px 35px 20px;
+    width: 99vw;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#htmllogo {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: 0;
+    float: left;
+    margin: 10px;
+}
+
+#csslogo {
+    display: block;
+    margin-left: 0;
+    float: right;
+}
+
+#aboutcss {
+    font-weight: 900;
+}
+
+p {
+    font-size: 1.2em;
+}
